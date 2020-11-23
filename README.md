@@ -1,3 +1,16 @@
+
+## Installation
+
+- `git clone https://github.com/shamsulaman786/hrm.git`
+- `cp .env.example .env`
+- `composer install`
+- `php artisan key:generate`
+- Edit `.env` and set your database connection details
+- `php artisan migrate`
+- `npm install`
+- Run server using - `php artisan serve`
+- Access the app at served URL: <a href="127.0.0.1:8000">`127.0.0.1:8000`</a>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
