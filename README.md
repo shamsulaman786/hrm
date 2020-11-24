@@ -5,6 +5,7 @@
 - `cp .env.example .env`
 - `composer install`
 - `php artisan key:generate`
+- `php artisan storage:link`
 - Edit `.env` and set your database connection details
 - `php artisan migrate`
 - `npm install`
